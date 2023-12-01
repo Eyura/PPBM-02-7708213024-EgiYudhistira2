@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/loginbg"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Email address"
+        android:textColor="@color/white"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/stylebox4"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColorHint="@color/white"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username"
+        android:background="@drawable/stylebox4"
+        android:paddingLeft="16dp"
+        android:textColor="@color/white"
+        android:paddingRight="16dp"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword">
+    </EditText>
+
+    <Button
+        android:id="@+id/LoginB"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/stylelogin"
+        android:layout_below="@+id/password"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:textColor="@color/white">
+
+    </Button>
+
+</RelativeLayout>

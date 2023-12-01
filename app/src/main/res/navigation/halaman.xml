@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/halaman"
+    app:startDestination="@id/menuUtama">
+
+    <activity
+        android:id="@+id/menuUtama"
+        android:name="com.example.assement.MenuUtama"
+        android:label="activity_menu_utama"
+        tools:layout="@layout/activity_menu_utama" />
+    <activity
+        android:id="@+id/instagramActivity2"
+        android:name="InstagramActivity"
+        android:label="InstagramActivity" />
+</navigation>
